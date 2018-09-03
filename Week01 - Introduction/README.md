@@ -22,7 +22,7 @@ b = blue crystal owned.\
 code above is to calculate crystal needed.
 
 ```max(0, yellow - a)```\
-the code above makes the program to choose the biggest number in the brackets. (cant be <0)\
+the code above makes the program to choose the biggest number in the brackets. (cant be <0)
 
 
 #Fraction (Problem 854A).
