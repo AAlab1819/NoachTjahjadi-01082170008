@@ -52,6 +52,18 @@ The second line of input contains : the rating of the students.\
 
 Use this ```dict = {}```  to detect unique numbers.
 Example : 11 12 13 13 15 -> the unique numbers : 11 12 13 15
+I use ```dict``` because its more easy to implement.
+Example : 11 12 13 13 15
+```
+	dict = {
+		Key:Value
+		11 : 1
+		12 : 2
+		13 : 3
+		15 : 5
+	}
+```
+dict takes duplicate numbers but only the first one appears.\
 
 ```for i in x:```\
   ```if i not in dict and len(dict)<k:```\
