@@ -1,4 +1,5 @@
 # Tricky Alchemy (Problem 912A).
+|[Answer](https://codeforces.com/contest/912/submission/42308697)|
 Grisha needs to obtain some yellow, green and blue balls.\
 Yellow Ball : 2 Yellow Crystal. (2y)\
 Green Ball  : 1 Yellow + 1 Blue. (y+b)\
@@ -24,7 +25,6 @@ code above is to calculate crystal needed.
 ```max(0, yellow - a)```\
 the code above makes the program to choose the biggest number in the brackets. (cant be <0)
 
-[Answer](https://codeforces.com/contest/912/submission/42308697)
 
 
 #Fraction (Problem 854A).
