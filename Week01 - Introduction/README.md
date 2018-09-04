@@ -79,7 +79,7 @@ Output : 1 2 3 4 5
 ```
 
 After that just make the condition\
-If you can make the team print yes and print the index.
+If you can make the team, print yes and print the index.
 If you cant print the team just simply print no.
 
 For printing the index :\
