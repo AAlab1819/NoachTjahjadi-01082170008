@@ -1,6 +1,6 @@
-n, k = map(int, input().split())
+n, k = map(int, input().split()) #first line input (student, team)
 
-x = list(map(int, input().split()))
+x = list(map(int, input().split())) #second line input (students rating)
 
 dict = {}
 
