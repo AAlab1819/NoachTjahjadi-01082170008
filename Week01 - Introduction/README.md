@@ -33,7 +33,7 @@ In this problem we have to print the highest possible positive integer that cann
 ```num = n // 2```\
 ```den = n - num```\
 First we need to decide the numerator and the denominator.\
-Divide the numerator by 2 and the denominator is the rest.\
+Divide the numerator by 2 and the denominator is the rest.
 
 ```while math.gcd(num, den) != 1:```\
 While the Greatest Common Divisor (gcd) != 1\
@@ -45,10 +45,10 @@ Then print the answer.
 # Diverse Team (Problem 988A).
 [Submission Link](http://codeforces.com/contest/988/submission/42458158)\
 The first line of input contains : the number of students, the size of team you have to form.\
-```n, k = map(int, input().split())```\
+```n, k = map(int, input().split())```
 
 The second line of input contains : the rating of the students.\
-```x = list(map(int, input().split()))```\
+```x = list(map(int, input().split()))```
 
 Use this ```dict = {}```  to detect unique numbers.
 Example : 11 12 13 13 15 -> the unique numbers : 11 12 13 15
@@ -63,7 +63,7 @@ Example : 11 12 13 13 15
 		15 : 5
 	}
 ```
-dict takes duplicate numbers but only the first one appears.\
+dict takes duplicate numbers but only the first one appears.
 
 ```for i in x:```\
   ```if i not in dict and len(dict)<k:```\
