@@ -51,8 +51,8 @@ The second line of input contains : the rating of the students.\
 ```x = list(map(int, input().split()))```
 
 Use this ```dict = {}```  to detect unique numbers.
-Example : 11 12 13 13 15 -> the unique numbers : 11 12 13 15
-I use ```dict``` because its more easy to implement.
+Example : 11 12 13 13 15 -> the unique numbers : 11 12 13 15\
+I use ```dict``` because its more easy to implement.\
 Example : 11 12 13 13 15
 ```
 	dict = {
