@@ -59,10 +59,15 @@ Example : 11 12 13 13 15 -> the unique numbers : 11 12 13 15
 
 This code above is to make sure that the index !> k\
 Example : \
+```
 Input : 15 5\
         11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
 
 Output : 1 2 3 4 5
+```
+
+After that just make the condition\
+If you can make the team print yes, 
 
 
 
