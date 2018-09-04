@@ -38,7 +38,7 @@ Divide the numerator by 2 and the denominator is the rest.\
 ```while math.gcd(num, den) != 1:```\
 While the Greatest Common Divisor (gcd) != 1\
 Subtract the numerator by 1\
-Add the deniminator by 1\
+Add the deniminator by 1
 
 Then print the answer.
 
