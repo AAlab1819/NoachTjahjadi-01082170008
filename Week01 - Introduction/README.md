@@ -42,6 +42,9 @@ Add the deniminator by 1\
 
 Then print the answer.
 
+# Diverse Team (Problem 988A).
+[Submission Link](http://codeforces.com/contest/988/submission/42458158)
+
 
 
 
