@@ -1,5 +1,5 @@
 # Tricky Alchemy (Problem 912A).
-[Answer](https://codeforces.com/contest/912/submission/42308697)\
+[Submission Link](https://codeforces.com/contest/912/submission/42308697)\
 Grisha needs to obtain some yellow, green and blue balls.\
 Yellow Ball : 2 Yellow Crystal. (2y)\
 Green Ball  : 1 Yellow + 1 Blue. (y+b)\
