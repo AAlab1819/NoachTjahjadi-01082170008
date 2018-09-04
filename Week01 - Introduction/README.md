@@ -71,7 +71,7 @@ If you can make the team print yes and print the index.
 If you cant print the team just simply print no.
 
 For printing the index :
-```for i in dict:```
+```for i in dict:```\
 		```print(dict[i], end=" ")```
 		
 
