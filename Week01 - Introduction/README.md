@@ -28,6 +28,7 @@ the code above makes the program to choose the biggest number in the brackets. (
 
 
 # Fraction (Problem 854A).
+[Answer](http://codeforces.com/contest/854/submission/42455021)\
 In this problem we have to output the highest possible positive integer that cannot be simplified anymore.\
 ```num = n // 2```\
 ```den = n - num```\
@@ -39,7 +40,9 @@ While the Greatest Common Divisor (gcd) != 1\
 Subtract the numerator by 1\
 Add the deniminator by 1\
 
-Then output the answer.
+Then print the answer.
+
+
 
 
 
