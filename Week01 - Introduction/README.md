@@ -24,8 +24,12 @@ code above is to calculate crystal needed.
 ```max(0, yellow - a)```\
 the code above makes the program to choose the biggest number in the brackets. (cant be <0)
 
+[Answer](https://codeforces.com/contest/912/submission/42308697)
+
 
 #Fraction (Problem 854A).
+
+
 
 
 
