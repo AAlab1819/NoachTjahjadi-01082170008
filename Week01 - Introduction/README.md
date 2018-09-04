@@ -29,7 +29,7 @@ the code above makes the program to choose the biggest number in the brackets. (
 
 # Fraction (Problem 854A).
 [Submission Link](http://codeforces.com/contest/854/submission/42455021)\
-In this problem we have to output the highest possible positive integer that cannot be simplified anymore.\
+In this problem we have to print the highest possible positive integer that cannot be simplified anymore.\
 ```num = n // 2```\
 ```den = n - num```\
 First we need to decide the numerator and the denominator.\
@@ -44,6 +44,33 @@ Then print the answer.
 
 # Diverse Team (Problem 988A).
 [Submission Link](http://codeforces.com/contest/988/submission/42458158)
+The first line of input contains : the number of students, the size of team to be you have to form.\
+```n, k = map(int, input().split())```\
+
+The second line of input contains : the rating of the students.\
+```x = list(map(int, input().split()))```\
+
+Use this ```dict = {}```  to detect unique numbers.
+Example : 11 12 13 13 15 -> the unique numbers : 11 12 13 15
+
+```for i in x:```\
+  ```if i not in dict and len(dict)<k:```\
+		   ```dict[i] = x.index(i)+1```\
+
+This code above is to make sure that the index !> k\
+Example : \
+Input : 15 5\
+        11 12 13 14 15 16 17 18 19 20 21 22 23 24 25\
+
+Output : 1 2 3 4 5\
+          
+ 
+
+
+
+
+
+
 
 
 
