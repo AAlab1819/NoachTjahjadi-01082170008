@@ -6,4 +6,4 @@
 [Submission Link](http://codeforces.com/contest/230/submission/42707565)
 
 # Oath of the Night's Watch (768A).
-blom bang
+[Submission Link](http://codeforces.com/contest/768/submission/42754181)
