@@ -80,7 +80,33 @@ Second line consists of n space separated integers (the values assigned to the s
 ```x = list(map(int, input().split()))```\
 In this problem Jon Snow only can support a steward(n), if:\
 other steward str < n and other steward str > n.(Jon Snow can support this) -> so it count as 1.\
-If there is no other steward str < n and other steward str > n.\ (Jon Snow cant support this) -> count as 0.\
+If there is no other steward str < n and other steward str > n. (Jon Snow cant support this) -> count as 0.\
+Example:
+```
+Input: 2(n)
+       2 1(x)
+
+Sort(x) using Comb Sort
+     : 1 2
+
+Output: 0
+```
+The output is 0 because 1 < 2 but there is no number > 2.
+```
+Input: 5
+       4 2 5 6 8
+Sort(x) using Comb Sort
+     : 2 4 5 6 8
+
+Output: 3
+```
+The output is 3 because:\
+No number < 2 and 4 > 2 (0)\
+2 < 4 and 5 > 4 (1)\
+5 < 4 and 6 > 5 (2)\
+5 < 6 and 8 > 6 (3)\
+6 < 8 and No number > 8 (0)
+       
 First sort the steward using comb sort.\
 ```comb_sort(x)```\
 I make a variable how many steward that Jon Snow cant support.\
