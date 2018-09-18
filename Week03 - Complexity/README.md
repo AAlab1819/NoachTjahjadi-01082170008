@@ -1,11 +1,23 @@
 # Vanya and Lanterns (492B).\
-[Submission Link](http://codeforces.com/contest/492/submission/42979782)
+[Submission Link](http://codeforces.com/contest/492/submission/42979782)\
+The first line contains two integers n (number of lantern, length of street respectively)\
+```n, l = map(int, input().split())```\
+Next line contains n integer.\
+```a = sorted(map(int, input().split()))```\
+(a) list already sorted.\
+Next find the highest radius out of the lanterns.\
+```d = max(min(a), l - max(a))```\
+Then for loop until, the radius light of the whole street achieved (d).\
+```
+for i in range (n-1):
+	d = max(d, (a[i+1] - a[i]) / 2)
+```
+Finally just print (d).\
+```print(d)```
 
-ntar dulu yah bang
-
-Worst Case :\
-Average Case :\
-Best Case :
+Worst Case : O(n log n)\
+Average Case : θ(n log n)\
+Best Case : Ω(n)
 
 
 # Insomnia Cure (148A).
@@ -24,9 +36,9 @@ Increment the damaged dragons\
 Then print the damaged dragons\
 ```print(damaged_dragons)```
 
-Worst Case :\
-Average Case :\
-Best Case :
+Worst Case : O(n)\
+Average Case : θ(n)\
+Best Case : Ω(n) 
 
 
 # I Wanna Be the Guy (469A).
@@ -53,8 +65,8 @@ If they both can finish all the level given\
 Print : ```print("I become the guy.")```
 if they cant : ```print("Oh, my keyboard!")```
 
-Worst Case :\
-Average Case :\
-Best Case :
+Worst Case : O(n)\
+Average Case : θ(n)\
+Best Case : Ω(n)\
 
 
