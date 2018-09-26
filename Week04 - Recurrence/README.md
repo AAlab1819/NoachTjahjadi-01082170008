@@ -11,6 +11,8 @@ Inside the for loop, there is formula for the problem.\
 After the for loop is done, print the answer (times)\
 ```print(times)```
 
+Complexity: O(n)
+
 # Igor In the Museum (598D)
 [Submission Link](https://codeforces.com/contest/598/submission/43414412)\
 Igor is in the museum and he wants to see as many pictures as possible.\
@@ -40,6 +42,8 @@ Using flood fill algorithm.\
 Flood fill each room in the array then assign the room location in ```ArrayIndexMap``` to a number.\
 Then output the answer for test case (x, y)\
 ```cout << Array[ArrayIndexMap[--y][--x]] << endl;```
+
+Complexity: O(nm)
         
          
 
