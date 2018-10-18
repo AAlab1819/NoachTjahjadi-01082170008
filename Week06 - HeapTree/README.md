@@ -28,6 +28,8 @@ Output : 7    (first number)
 Use Heap Sort to sort the array.\
 After we sort the array, just find the median.
 
+Complexity : Worst Case -> O(nlogn)
+
 # Roy and Trending Topics
 This problem want us to find 5 Trending Topics (highest z-score).\
 Each topics have their own ID.\
@@ -55,4 +57,6 @@ Each line should contain two space seperated integers (ID and New z-score).
 
 Sort based on changes (New z-score - Old z_score), if z-score is the same, the bigger Topic ID wins.\
 Just list all the possibilities and find max and continues 5 times.
+
+Complexity : Worst Case -> O(nlogn)
 
