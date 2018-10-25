@@ -1,5 +1,5 @@
 # Partition(964A)
-[Submission Link](http://codeforces.com/contest/946/submission/44820655)
+[Submission Link](http://codeforces.com/contest/946/submission/44820655)\
 First line contains one n integer (number of elements)\
 Second line contains n integer (the elements of sequence)\
 Output the maximum possible value of B-C
@@ -12,7 +12,7 @@ Then just output b-c.
 Complexity Worst Case: O(n)
 
 # File Name(978B)
-[Submission Link](http://codeforces.com/contest/978/submission/44821061)
+[Submission Link](http://codeforces.com/contest/978/submission/44821061)\
 First line contains integer n (length of the file name)\
 Second line contains a string of length n (file name)\
 Output the minimun number of character to remove from the file.
