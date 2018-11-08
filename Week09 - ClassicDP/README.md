@@ -28,11 +28,15 @@ Print the number (of max value)
 
 Worst Case Complexity :  O(n^2)
 
-#Dollars(147)
+# Dollars(147)
 First input consist of a series of real numbers no greater than ```$300.00``` (seperate line).\
 Each amount will be valid if multiple of 5c.\
 File terminated by a line containing zero (0.00).\
 Output consist of a line each of the amounts in the input.\
 Each line consist amount of money and number of ways in which that amount may be made up.
 
-Solution, ntaran dah puyeng.
+Solution, 
+Put all the ways the coins can be divided to an array.\
+Use the array to calculate the count.\
+Divide the amount with a specific coin that we increase.\
+Then calculate all the specific coin.
